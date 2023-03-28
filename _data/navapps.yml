@@ -8,7 +8,7 @@
 
 - image     : supercharge.png
   name      : Supercharge
-  url       : www.supercharge.info
+  url       : supercharge.info
   display   : true
   prio      : 2
 
@@ -27,5 +27,11 @@
 - image     : chargemap.png
   name      : ChargeMap
   url       : www.chargemap.com
+  display   : true
+  prio      : 5
+
+- image     : electromaps.png
+  name      : ElectroMaps
+  url       : map.electromaps.com/en/
   display   : true
   prio      : 5

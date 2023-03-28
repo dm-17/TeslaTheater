@@ -13,7 +13,7 @@ bodyclass: front
       {% for theater in theaters %}
         {% if theater.display %}
         <div class="grid-item">
-          <a href="https://{% if theater.redirect %}www.youtube.com/redirect?q={% endif %}{{theater.url}}"><img class="theatericons" src="/assets/images/{{theater.image}}"></a></div>
+          <a href="https://{% if theater.redirect %}www.youtube.com/redirect?q={% endif %}{{theater.url}}"><img class="theatericons" src="assets/images/{{theater.image}}"></a></div>
         {% endif %}
       {% endfor %}
     </div>
@@ -28,7 +28,7 @@ bodyclass: front
       {% for item in items %}
         {% if item.display %}
         <div class="grid-item">
-          <a href="https://{{item.url}}"><img class="theatericons" src="/assets/images/{{item.image}}"></a></div>
+          <a href="https://{{item.url}}"><img class="theatericons" src="assets/images/{{item.image}}"></a></div>
         {% endif %}
       {% endfor %}
     </div>
