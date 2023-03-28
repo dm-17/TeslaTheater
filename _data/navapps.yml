@@ -1,0 +1,31 @@
+# List of all useful Map links
+
+- image     : abrp.png
+  name      : A Better Route Planner
+  url       : www.abetterrouteplanner.com
+  display   : true
+  prio      : 1
+
+- image     : supercharge.png
+  name      : Supercharge
+  url       : www.supercharge.info
+  display   : true
+  prio      : 2
+
+- image     : waze.png
+  name      : Waze
+  url       : www.waze.com
+  display   : true
+  prio      : 4
+
+- image     : shell.png
+  name      : Shell Recharge
+  url       : my.newmotion.com
+  display   : true
+  prio      : 3
+
+- image     : chargemap.png
+  name      : ChargeMap
+  url       : www.chargemap.com
+  display   : true
+  prio      : 5

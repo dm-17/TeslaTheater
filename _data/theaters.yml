@@ -1,0 +1,25 @@
+# List of all Theaters with links
+
+- image     : youtube.png
+  name      : Youtube
+  url       : www.youtube.com
+  redirect  : false
+  display   : true
+
+- image     : primevideo.png
+  name      : Prime Video
+  url       : www.primevideo.com
+  redirect  : true
+  display   : true
+
+- image     : netflix.png
+  name      : Netflix
+  url       : www.netflix.com
+  redirect  : false
+  display   : true
+
+- image     : disneyplus.png
+  name      : Disney Plus
+  url       : www.disneyplus.com
+  redirect  : false
+  display   : true
