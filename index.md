@@ -7,5 +7,5 @@ bodyclass: front
 # Tesla Theater
 
 - [www.youtube.com](Youtube)
-- [www.primevideo.com](Prime Video)
-- [www.netflix.com](Netflix)
+- [https://www.youtube.com/redirect?q=https://www.primevideo.com](Prime Video)
+- [https://www.youtube.com/redirect?q=https://www.netflix.com](Netflix)
