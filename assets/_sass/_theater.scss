@@ -1,13 +1,14 @@
 
 section.theater-front {
+	background-color: $verydarkgrey;
+	color: $lightgrey;
 	margin: 0em;
-	padding: 1em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
 	h1.mainpage {
 		position: relative;
 		display: flex;
 		font-weight: bold;
 		justify-content: center;
-		margin-left: 50px;
 		color: $darkblue;
 	}
 	h2 {
@@ -68,7 +69,6 @@ div.theater-grid {
 		margin-top: 1em;
 		margin-right: auto;
 		display: grid;
-		// grid-template-columns: auto auto auto;
 		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 		grid-gap: 1em;
 		background-color: $lightgrey;
@@ -82,23 +82,15 @@ div.theater-grid {
 		border: 1px solid $grey;
 		border-radius: 5%;
 		padding: 20px;
-		// align-items: center;
 		text-align: center;
 		vertical-align: middle;
 	}
 
 	img.theatericons {
 		position: relative ;
-		top: .5em;
-		//left: 20px ;
 		object-fit: contain;
 		max-width: 100%;
 		height: 150px;
-		// display: block;
-		// max-width: 150px;
-		// max-height: 150px;
-		// width: auto;
-		// height: auto;
 		border-radius: 5%;
 		padding: 1em ;
 		margin-left: auto;
@@ -108,134 +100,3 @@ div.theater-grid {
 
 	}
 }
-
-div.theater-full {
-
-	// ul {
-	// 	list-style: none;
-	// }
-	// li {
-	// 	padding-left: 210px;
-	// 	padding-bottom:40px;
-	// 	list-style-type: none !important;
-	// 	clear: both;
-	// }
-
-	img.theatericons {
-		position: relative ;
-		top: .5em;
-		//left: 20px ;
-		max-width: 80% ;
-		width: 150px;
-		height: auto ;
-		border-radius: 5%;
-		padding: 1em ;
-		margin-left: auto;
-		margin-right: auto;
-		background: $white ;
-
-
-	}
-
-
-	// img {
-	// 	width: 150px;
-	// 	height: 150px;
-	// 	border-radius: 5%;
-	// 	float: left;
-	// 	background-size: cover;
-	// 	margin-left:0px;
-	// 	margin-top:-5px;
-	// 	margin-right: 5px;
-	// }
-
-
-	// p {
-	// 	margin: 0px;
-	// 	text-indent:20px;
-	// 	padding:0px;
-	// }
-
-	table {
-		position: absolute;
-		margin-top: 2em;
-		margin-left:2em;
-    margin-right:auto;
-		margin-bottom: 2em;
-		width: 70%;
-		padding: 2em;
-		// background: $lightgrey;
-		border-top: 5px;
-		border-bottom: 5px;
-		border-left: 0;
-		border-right: 0;
-		border-style: solid;
-		border-color: $grey;
-
-		//th, td {
-			//padding: 2em;
-		//}
-		td.theatericons {
-			position: inherit;
-			padding: 2em ;
-			align-items: center;
-			text-align: center;
-			vertical-align: middle;
-			margin: 2em 2em 2em 2em;
-			// margin-top: 15px;
-			// margin-left: auto;
-			// margin-right: auto;
-			border: 0;
-			border-radius: 5%;
-			background-color: $lightgrey;
-		}
-		//thead {
-			//tr {
-			//	background: $darkblue;
-			//	color: #fff;
-			//}
-			//th {
-		  //  text-align: left;
-		  //  font-weight: bold;
-			//}
-		//}
-		//tbody {
-		//	td,tr {
-		//		border-radius: 5%;
-		//		background: $lightgrey ;
-
-		//	}
-		//	tr:nth-child(2n) {
-		//		background: #eee;
-		//	}
-		//}
-	}
-}
-
-// @media (max-width: 500px) {
-// 	section.theater-front {
-// 		ul {
-// 			display: block;
-// 			li {
-// 				width: 100%;
-// 				max-width: 100%;
-// 				height: 250px;
-// 				background-position: center center;
-// 			}
-// 		}
-// 	}
-// 	div.theater-full {
-// 		ul {
-// 			padding: 0 0 0 0;
-//
-// 			li {
-// 				padding-left: 0px;
-// 			}
-// 			img {
-// 				float: none;
-// 				margin-left: 0px;
-// 				margin: 0 auto;
-// 			}
-// 		}
-// 	}
-// }
