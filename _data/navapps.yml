@@ -35,3 +35,15 @@
   url       : map.electromaps.com/en/
   display   : true
   prio      : 5
+
+- image     : tesla.png
+  name      : Tesla
+  url       : www.tesla.com/findus?v=2&search=Belgium&bounds=62.97836553424698%2C37.604701625000004%2C33.58382357076865%2C-28.664829624999992&zoom=5&filters=supercharger%2Cdestination%20charger%2Cparty
+  display   : true
+  prio      : 2
+
+- image     : plugshare.png
+  name      : PlugShare
+  url       : www.plugshare.com
+  display   : true
+  prio      : 10
