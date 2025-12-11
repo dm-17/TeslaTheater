@@ -1,0 +1,49 @@
+# List of all useful Map links
+
+- image     : abrp.png
+  name      : A Better Route Planner
+  url       : www.abetterrouteplanner.com
+  display   : true
+  prio      : 1
+
+- image     : supercharge.png
+  name      : Supercharge
+  url       : supercharge.info
+  display   : true
+  prio      : 2
+
+- image     : waze.png
+  name      : Waze
+  url       : www.waze.com
+  display   : true
+  prio      : 4
+
+- image     : shell.png
+  name      : Shell Recharge
+  url       : my.newmotion.com
+  display   : true
+  prio      : 3
+
+- image     : chargemap.png
+  name      : ChargeMap
+  url       : www.chargemap.com
+  display   : true
+  prio      : 5
+
+- image     : electromaps.png
+  name      : ElectroMaps
+  url       : map.electromaps.com/en/
+  display   : true
+  prio      : 5
+
+- image     : tesla.png
+  name      : Tesla
+  url       : www.tesla.com/findus?v=2&search=Belgium&bounds=62.97836553424698%2C37.604701625000004%2C33.58382357076865%2C-28.664829624999992&zoom=5&filters=supercharger%2Cdestination%20charger%2Cparty
+  display   : true
+  prio      : 2
+
+- image     : plugshare.png
+  name      : PlugShare
+  url       : www.plugshare.com
+  display   : true
+  prio      : 10
